@@ -21,9 +21,9 @@ from logger import Logger
 import time
 from eval_metric import AverageNonzeroTripletsMetric
 
-logger = Logger('log/{}'.format(time.ctime()).replace(' ', '_'))
+logger = Logger(r'log\{}'.format(time.ctime()).replace(' ', '_').replace(':',"_"))
 
-f = open('./config/config.yaml', 'r')
+f = open(r'.\config\config.yaml', 'r')
 config = yaml.load(f)
 f.close()
 model_config = config['model']

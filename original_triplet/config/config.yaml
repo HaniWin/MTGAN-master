@@ -6,10 +6,10 @@ data:
   win_len: 0.02
   win_step: 0.01
   n_frames: 128
-  data_path: '/home/zeng/zeng/datasets/voxceleb1'
-  manifest: '../manifest/voxceleb1_manifest.csv'
+  data_path: 'C:\MTGANData\test'
+  manifest: '..\manifest\voxceleb1_manifest.csv'
   trial_file: '/home/zeng/zeng/datasets/voxceleb1/veri_test.txt'
-  test_wav: '/home/zeng/zeng/datasets/voxceleb1/test/wav'
+  test_wav: 'C:\MTGANData\test\wav'
 
 model:
   embedding_dim: 512
